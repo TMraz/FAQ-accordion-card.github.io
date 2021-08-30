@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap);
+
+:root {
+    --color-font: hsla(238, 29%, 16%);
+    --color-font-dd: hsl(240, 6%, 50%);
+    --color-bg-main: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    --color-bg-card: hsl(0, 0%, 100%);
+    --color-divider: hsl(240, 5%, 91%);
+    --color-active: hsl(14, 88%, 65%);
+    --color-atribution:hsl(0, 0%, 80%);
+
+    --ff: 'Kumbh Sans', sans-serif;
+}
+
+/* * {outline: 1px dotted rgb(153, 51, 144);} */
+
+/* === GENERAL === */
+html { box-sizing: border-box; }
+*, *:before, *:after { 
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit; 
+}
+
+html {
+    height: 100vh;
+    font-size: 100%;
+    font-weight: 400;
+    color: var(--color-font);
+    font-family: var(--ff);
+    background: var(--color-bg-main);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 370px;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+
+    position: relative;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--color-heading);
+    text-align: center;
+
+    margin: 1.25rem 0;
+}
+
+a {
+    font-size: 1rem;
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+/* === HEADER === */
+
+header {
+    height: 6rem;
+}
+
+.mobile{
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    top: -.6rem;
+    left: 2.5rem;
+}
+
+.desktop {
+    display: none;
+}
+
+.box {
+    display: none;
+}
+
+/* === CONTAINER === */
+.container {
+    width: 100%;
+    padding: 7rem 1.5rem 3rem;
+    border-radius: 1.5rem;
+    background: var(--color-bg-card) url(../img/bg-pattern-mobile.svg) no-repeat top;
+}
+
+dt {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--color-divider);
+    display: flex;
+    justify-content: space-between;
+}
+
+dt img {
+    width: auto;
+    height: 9px;
+    margin: auto 0;
+}
+
+dd {
+    font-size: .9rem;
+    padding: 1rem 0;
+    color: var(--color-font-dd);
+}
+
+.selected {
+    font-weight: 700;
+}
+
+.active {
+    color: var(--color-active);
+}
+
+.flip {
+    transform: rotateX(180deg);
+}
+/* === FOOTER === */
+main > footer {
+    margin: 0;
+    padding: 0;
+}
+
+main > footer > p {
+    margin: 0;
+}
+.attribution { font-size: 8px; text-align: center; color: var(--color-atribution)}
+.attribution a { font-size: 8px; color: var(--color-atribution); }
