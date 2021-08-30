@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion card solution
 
-This is a solution to the ![FAQ accordion card challenge on Frontend Mentor](./design/desktop-preview.jpg). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the FAQ accordion card challenge on Frontend Mentor ![FAQ accordion card challenge on Frontend Mentor](./design/desktop-preview.jpg). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TMraz/Fylo-dark-theme-landing-page-solution.github.io)
+- [Solution URL](https://github.com/TMraz/FAQ-accordion-card.github.io)
 
-- [Live Site URL](https://tmraz.github.io/Fylo-dark-theme-landing-page-solution.github.io/)
+- [Live Site URL](https://tmraz.github.io/FAQ-accordion-card.github.io/)
 
 
 ## My process
